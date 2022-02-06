@@ -1,0 +1,242 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(112,128,144,1) 100%);
+    color: white;
+    font-family:sans-serif;
+    margin: 0;
+}
+
+.summary {
+    font-size: x-large;
+    
+}
+
+input:focus {
+    color: white;
+    outline: white;
+}
+
+
+/*Navigation links*/
+a{
+    color:white;
+    text-decoration: none;
+}
+a:active{
+    color:orange;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited{
+    color:white;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    height: 25px;
+    align-items: center;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    width: 50%;
+    margin:50px;
+}
+
+.container ul li a {
+    padding: 5px;
+    width:max-content;
+    font-size: 17px;
+    margin-left: 100px;
+}
+
+
+/* header stuff */
+.header {
+    display: flex;
+    width: 100%;
+    height: 900px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-right: 90px;
+    opacity: 1;
+}
+
+header {
+    background: url(/images/TreeHole.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    max-width: 100%;
+    opacity: .8;
+
+}
+
+/* Project part stuff */
+
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 100px 0px 50px
+}
+
+#projectHeader {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.HelloWorld {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+
+}
+
+#LittleRyan {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.FortuneTeller {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#GolfJerk {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.FortuneTellerText {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+}
+
+.GuessingGame {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.GuessingGameText {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+}
+
+#AddamsFamily {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.VPS {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.VPSText {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+}
+
+#RbATeam {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.AboutMe {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.AboutText {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    font-size: large;
+}
+
+.form {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contactHeader {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#GitHubLogo {
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#LinkedLogo {
+    width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+

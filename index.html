@@ -4,10 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ryan McCurdy's Portfolio</title>
+    <!-- <link href="/defaultstyles.css" rel="stylesheet" /> -->
+    <link href="/styles.css" rel="stylesheet" />
 </head>
 <body>
-    <p>Hello world</p>
+    <nav class="container">
+        <ul>
+            <li class="container firstlink">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="container secondlink">
+                <a href="#summary">About me</a>
+            </li>
+            <li class="container thirdlink">
+                <a href="#contactMe">Contact Info</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        
+            <!-- <nav class="container">
+                <ul>
+                    <li class="container firstlink">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="container secondlink">
+                        <a href="#summary">About me</a>
+                    </li>
+                    <li class="container thirdlink">
+                        <a href="#contactMe">Contact Info</a>
+                    </li>
+                </ul>
+            </nav> -->
+        <div class="headerTitle">
+            <h1 class="header">Ryan McCurdy</h1>
+        </div>
+    </header>
+    <section id ="projects">
+        <h1 id=projectHeader>Projects</h1>
+            <article class="projectBoxes">
+                <h2>
+                    <a class="HelloWorld" href="https://github.com/mccurdyr/hello-world">Hello World</a>
+                </h2>
+                    <img id="LittleRyan" src="/images/LittleRyanFixed.jpg" alt="Little Ryan">
+                        <p class="HelloWorld">Ah, my very first project. We used Java to make the console print the text, "Hello world!" How intuitve!
+                        </p>
+                        <br>
+                        <br>
+                        
+            </article>
+            <article class="projectBoxes">
+                <h2 class="FortuneTeller">Fortune Teller</h2>
+                    <img id="GolfJerk" src="/images/GolfJerkFixed.jpg" alt="Some idiot on a golf course">
+                        <p class="FortuneTellerText">Buckle in, folks! This one is going to be a doozy. I built a fortune teller, similar to the M*A*S*H* games of old. Enter your name, age, and other stuff; find out when you retire!
+                        </p>
+                        <br>
+                        <br>
+            </article>
+            <article class="projectBoxes">
+                <h2>
+                    <a class="GuessingGame" href="https://github.com/2022-Spring-Cohort/guessing-game-mccurdyr">Guessing Game</a>
+                </h2>
+                    <img id="AddamsFamily" src="/images/AddamsFamilyFixed.jpg" alt="Snap, snap">
+                        <p class="GuessingGameText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Consectetur quibusdam amet voluptate facere nostrum rerum odio quisquam!
+                        Voluptates dolorem autem omnis doloremque, quae accusamus, quaerat mollitia,
+                        sed nisi rerum nesciunt!
+                        </p>
+                        <br>
+                        <br>
+            </article>
+            <article class="projectBoxes">
+                <h2>
+                    <a class="VPS" href="https://github.com/2022-Spring-Cohort/virtual-pet-mccurdyr">Virtual Pet Shop</a>
+                </h2>
+                    <img id="RbATeam" src="images/RbATeamPic.jpg" alt="A Snazzy Group">
+                        <p class="VPSText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Consectetur quibusdam amet voluptate facere nostrum rerum odio quisquam!
+                        Voluptates dolorem autem omnis doloremque, quae accusamus, quaerat mollitia,
+                        sed nisi rerum nesciunt!
+                        </p>
+                        <br>
+                        <br>
+            </article>
+    </section>
+
+    <section id="summary">
+        <h2 class="AboutMe">About Me</h2>
+        <p class="AboutText">Ryan McCurdy is a professional developer that has been molded by the 
+            corporate world of marketing and business operations. 
+            A total tech nerd, his curiosity drives forward his innate desire to learn, build, and play.
+            Whether it's behind a keyboard or a drum kit, 
+            Ryan's incessant drive to constantly improve is as asset to any team he may be a part of.
+        </p>
+    </section>
+
+    <section id="contactMe">
+        <h2 class="contactHeader">Contact Me</h2>
+        <!-- <form action class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="email" name="email" class="input" placeholder="Enter your email">
+            <textarea name="text" id="message"placeholder="Enter your message>"></textarea>
+        </form> -->
+    </section>
+
+    <footer class="contactLinks">
+        <div class="contactLeft">
+            <a href="https://github.com/mccurdyr">
+                <!-- Github link; -->
+                <img id="GitHubLogo" src="images/GitHubLogo.png" alt="Github link">
+            </a>
+        </div>
+        <div class="contactRight">
+            <a href="https://www.linkedin.com/in/ryan-mccurdy-0a9146231/">
+                <img id="LinkedLogo" src="images/LinkedLogo.png" alt="Linked In link">
+            </a>
+        </div>
+    </footer>
+
     
 </body>
 </html>
