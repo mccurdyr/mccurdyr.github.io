@@ -118,7 +118,7 @@ header {
 
 #LittleRyan {
     display: block;
-    width: 30%;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
@@ -134,10 +134,12 @@ header {
 
 #GolfJerk {
     display: block;
-    width: 50%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
+    justify-content: center;
+
 }
 
 .FortuneTellerText {
@@ -145,6 +147,8 @@ header {
     margin-left: 20%;
     margin-right: 20%;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .GuessingGame {
@@ -159,6 +163,7 @@ header {
     margin-left: 20%;
     margin-right: 20%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #AddamsFamily {
@@ -223,7 +228,7 @@ header {
 }
 
 #GitHubLogo {
-    width: 5%;
+    width: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
