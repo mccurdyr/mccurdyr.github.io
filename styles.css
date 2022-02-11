@@ -286,6 +286,17 @@ header {
    2px 2px 0 #000;
 }
 
+.break5 {
+    background: url(/images/RbATeamPic.jpg);
+    background-attachment: fixed;
+    max-width: 100%;
+    padding: 400px 100px;
+    margin: 0;
+    border: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .form {
     display: flex;
     justify-items: center;
