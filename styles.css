@@ -127,12 +127,20 @@ header {
     
 }
 
+.projectBoxes {
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
 .HelloWorld {
     display: flex; 
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .break1 {
@@ -165,7 +173,7 @@ header {
 
 #FortuneTellerImage {
     display: block;
-    width: 70%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
